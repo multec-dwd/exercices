@@ -1,6 +1,7 @@
 # Exercices
 
 >Source files and solutions for the Dynamic Webdevelopment seminars' exercices at Multec, program of the Erasmushogeschool University College Brussels.
+
 >Opgavebestanden en oplossingen van de oefeningen uit de werkcolleges Dynamic Web Development van de opleiding Multec aan de Erasmushogeschool Brussel.
 
 [Website Departement Design & Technologie](http://www.hallodigitalemetropool.be/)  
