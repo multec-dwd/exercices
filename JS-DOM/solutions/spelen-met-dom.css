@@ -1,0 +1,17 @@
+body {
+    background-color: #343432;
+    color: #ffffff;
+}
+.blok {
+    box-sizing: border-box;
+    background-color: #FADD33;
+    width: 75px;
+    height: 75px;
+    padding: 50px 0 0 45px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #343432;
+    margin: 2px;
+    float: left;
+}

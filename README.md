@@ -12,14 +12,39 @@
 ### Oefeningenreeks 1 - de basis
 > Variabelen, functies, loops & controlestructuren
 
-[link](/JS-basics/)
+> [link](/JS-basics/)
 
 ### Oefeningenreeks 2 - data structuren
 > Arrays, objects & localstorage
 
-[link](/JS-data-structures/)
+> [link](/JS-data-structures/)
+
+### Oefeningenreeks 3 - DOM
+> Document Object Model: selecteren, manipuleren & DOM events
+
+> [link](/JS-DOM/)
+
+### Oefeningenreeks 4 - validatie
+> Formuliervalidatie: stringfuncties & reguliere expressies
+
+> [link](/JS-validation/)
+
+### Herhalingsoefening - webshop
+> 
+
+> [link](/JS-webshop/)
 
 ## jQuery
+
+### Oefeningenreeks 1
+> jQuery Basics
+
+> [link](/JQ-basics/reeks1)
+
+### Oefeningenreeks 2
+> jQuery Basics
+
+> [link](/JQ-basics/reeks2)
 
 ## Ajax, XML & JSON
 

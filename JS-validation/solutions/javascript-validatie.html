@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jan Klaas Van Den Meersche">
+    <title>JavaScript validatie registratieformulier</title>
+    <style>
+        /* opmaak formulierlabels */
+        label {
+            display: block;
+        }
+        /* opmaak voor foutmelding */
+        span.error {
+            color: #f00;
+            font-size: 0.8em;
+            font-weight: bold;
+            padding: 1px 6px;
+        }
+        span.valid {
+            color: #9E6;
+        }
+        input {
+            border: 1px solid;
+        }
+    </style>
+
+    <script src="javascript-validatie.js">   </script>
+
+</head>
+
+<body>
+    <h1>JavaScript validatie registratie</h1>
+    <form id="form1" method="post">
+
+        <label for="naam">Naam:</label>
+        <input type="text" id="naam" name="naam">
+        <span></span>
+
+        <label for="geboortedatum">Geboortedatum:</label>
+        <input type="text" id="geboortedatum" name="geboortedatum">
+        <span></span>
+
+        <label for="telefoonnummer">Telefoonnummer:</label>
+        <input type="text" id="telefoonnummer" name="telefoonnummer">
+        <span></span>
+
+        <label for="straatnaam">Straatnaam:</label>
+        <input type="text" id="straatnaam" name="straatnaam">
+        <span></span>
+
+        <label for="huisnummer">Huisnummer:</label>
+        <input type="text" id="huisnummer" name="huisnummer">
+        <span></span>
+
+        <label for="postcode">Postcode:</label>
+        <input type="text" id="postcode" name="postcode">
+        <span></span>
+
+        <label for="woonplaats">Woonplaats:</label>
+        <input type="text" id="woonplaats" name="woonplaats">
+        <span></span>
+
+        <label></label>
+        <input type="submit">
+
+    </form>
+</body>
+
+</html>

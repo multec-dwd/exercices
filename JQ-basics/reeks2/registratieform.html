@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jan Klaas Van Den Meersche">
+    <title>Form validatie</title>
+    
+    <link rel="stylesheet" href="registratieform.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    </script>
+</head>
+
+<body>
+    <form>
+        <label for="naam">Naam:</label>
+        <input type="text" name="naam" id="naam" />
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+        <br>
+        <label for="paswoord1">Paswoord:</label>
+        <input type="password" name="paswoord1" id="paswoord1" class="paswoorden" />
+        <br>
+        <label for="paswoord2">Bevestig paswoord:</label>
+        <input type="password" name="paswoord2" id="paswoord2" class="paswoorden" />
+        <br>
+        <input type="submit" value="Registreer" />
+        <div id="foutmelding"></div>
+    </form>
+</body>
+
+</html>
