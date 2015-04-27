@@ -39,13 +39,20 @@
 ### Oefeningenreeks 1
 > jQuery Basics
 
-> [link](/JQ-basics/reeks1)
+> [link](/JQ-basics/solutions/reeks1)
 
 ### Oefeningenreeks 2
 > jQuery Basics
 
-> [link](/JQ-basics/reeks2)
+> [link](/JQ-basics/solutions/reeks2)
 
 ## Ajax, XML & JSON
+> Ajax + XML
 
-## Phonegap
+> [link](/JQ-ajax/)
+
+> Data verzenden
+
+> [link](/JQ-ajax/)
+
+<!--## Phonegap-->
