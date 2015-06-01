@@ -6,21 +6,7 @@
     <meta name="author" content="Jan Klaas Van Den Meersche">
     <title>Tekst inladen via Ajax</title>
     <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-    <script>
-        $(function(){
-        	
-        	$.ajax({
-        		url: 'data.txt',
-        		success: function(data){
-        			$('#changeMe').text(data);
-        		},
-        		error: function(err){
-        			console.error('Fout: ', err);
-        		}
-        	});
-        	
-        });
-    </script>
+    <script src="tekst-inladen-ajax.js"></script>
 </head>
 
 <body>

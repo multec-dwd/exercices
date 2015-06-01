@@ -1,4 +1,7 @@
 <?php
+/* Ajax - chat app
+Copyright (c) 2015 Jan Klaas Van Den Meersche - jan.klaas.van.den.meersche@ehb.be
+*/
 
 if(isset($_POST["time"]) && isset($_POST["name"]) && isset($_POST["message"])){
 	echo saveMessage($_POST["time"],$_POST["name"],$_POST["message"]);

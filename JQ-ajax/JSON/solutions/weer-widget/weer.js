@@ -1,3 +1,6 @@
+/* Ajax loading JSON
+Copyright (c) 2015 Jan Klaas Van Den Meersche - jan.klaas.van.den.meersche@ehb.be
+*/
 /* jshint
 devel: true,
 browser: true,
@@ -11,7 +14,6 @@ $(document).ready(function () {
             // console.log(weer);
             var htmlString = "";
             $.each(weer, function (i, dag) {
-                // console.log(dag);
                 htmlString += "<h2>Voorspelling voor " + dag.datum + "</h2>";
                 htmlString += "<ul>";
                 htmlString += "<li>Min: " + dag.min + "</li>";
