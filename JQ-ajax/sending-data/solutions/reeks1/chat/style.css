@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#chat
+{
+	width:200px; height:300px; background-color:#E4F7F7; overflow: auto; padding:5px; margin: 0;
+	border: 1px #D2E3E6 solid;
+	border-bottom:none;
+	border-radius: 5px 5px 0 0;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:12px;
+	color:#666;
+}
+#chat p
+{
+	margin: 0;
+}
+#chat time
+{
+	color:#999; padding-left:5px; font-size:9px;
+}
+#post
+{
+	width:200px; padding:5px; height:30px;
+	border: 1px #D7ECE6 solid;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:12px;
+	margin:0;
+	background:right url(return-icon.png) no-repeat;
+	border-radius: 0 0 5px 5px;
+}
+
+#name
+{
+	width:200px; padding:5px; height:30px;
+	border: 1px #D7ECE6 solid;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:12px;
+	border-radius: 5px 0 0 5px;
+	margin-right:0;
+}
+#logon
+{
+	margin-left:0;
+	width:100px; padding:5px; line-height:30px;
+	border: 1px #C2E760 solid;
+	border-left:none;
+	border-radius: 0 5px 5px 0;
+	background-color:#E6FCAC; 
+	cursor:pointer;
+	font-size:12px; color:#060;
+}

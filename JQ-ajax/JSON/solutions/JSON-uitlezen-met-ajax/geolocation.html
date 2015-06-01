@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jan Klaas Van Den Meersche">
+    <title>Geolocation ophalen</title>
+
+    <script>
+        window.onload = function(){
+        	navigator.geolocation.getCurrentPosition(function(p){
+        		var JSONgeolocation = '{"longitude":' + p.coords.longitude + ',"latitude":' + p.coords.latitude + '}';
+        		document.getElementById('geo').innerHTML = JSONgeolocation;
+        	});	
+        };
+    </script>
+</head>
+
+<body>
+    <h1>Geolocation ophalen</h1>
+    <p id="geo"></p>
+</body>
+
+</html>

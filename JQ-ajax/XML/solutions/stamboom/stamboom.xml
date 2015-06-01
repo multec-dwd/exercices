@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persoon naam="x">
+	<persoon naam="vader">
+		<persoon naam="grootvader"></persoon>
+		<persoon naam="grootmoeder"></persoon>
+	</persoon>
+	<persoon naam="moeder"></persoon>
+</persoon>

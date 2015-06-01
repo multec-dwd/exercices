@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+body
+{
+	background-color:#F9F8F9;
+}
+.album
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width:137px;
+	padding:10px;
+	display:inline-block;
+	position:relative;
+}
+.album img
+{
+	box-shadow:0 2px 10px rgba(0, 0, 0, 0.4);/*drop-shadow*/
+	outline: 1px solid rgba(0, 0, 0, 0.4);/*outline border transparent*/
+	outline-offset: -1px;/*outline border inside image*/
+}
+.album .title
+{
+	font-weight:bold;
+	margin:0;
+}
+.album .artist
+{
+	margin:0;
+	color:#888;
+}

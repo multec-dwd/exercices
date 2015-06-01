@@ -1,0 +1,41 @@
+HTML versus XML
+===============
+
+De extra regel voor een welgevormd XML-document ten opzichte van HTML5 is dat lege elementen ook moeten worden afgesloten. Dit doe je door een / toe te voegen op het einde van de starttag.
+
+HTML5: <br>
+XML: <br/>
+
+
+Welgevormd of niet?
+===================
+
+Fout, geen uniek root-element
+
+Welgevormd of niet? (2)
+=======================
+
+De XML is niet correct. Op lijn 4 en 5 wordt er een fout gemaakt tegen de basisregel dat elementen elkaar niet mogen overlappen. <a> bevat een element <b>, om <a> af te sluiten moet eerst element <b> gesloten worden.
+Op de derdelaatste lijn worden 2 <b>-elementen opgestart. Deze moeten verplicht afgesloten worden. <b> wordt dus <b/>.
+
+<?xml version="1.0"?>
+<r>
+	<t>
+		<a><b>
+		</b></a>
+		<f>
+			<a/>
+		</f>
+	</t>
+	<t2>
+		<b/><b/>
+	</t2>
+</r>
+
+Test jezelf
+===========
+
+1.a. waar
+1.b. waar
+1.c. waar
+2.b. is de enige correcte schrijfwijze

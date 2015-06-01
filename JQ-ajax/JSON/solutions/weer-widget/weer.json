@@ -1,0 +1,45 @@
+{
+    "vandaag": {
+        "datum": "01/05",
+        "min": 8,
+        "max": 17,
+        "zon": 0.23,
+        "neerslag": {
+            "hoeveelheid": 0.17,
+            "duur": 0.8,
+            "soort": "regen"
+        },
+        "windrichting": "ZW",
+        "windsnelheid": 2,
+        "nacht": "bewolkt"
+    },
+    "morgen": {
+        "datum": "02/05",
+        "min": 7,
+        "max": 18,
+        "zon": 0.43,
+        "neerslag": {
+            "hoeveelheid": 0.1,
+            "duur": 0.2,
+            "soort": "regen"
+        },
+        "windrichting": "Z",
+        "windsnelheid": 3,
+        "nacht": "helder"
+    },
+    "overmorgen": {
+        "datum": "03/05",
+        "min": 10,
+        "max": 21,
+        "zon": 0.86,
+        "neerslag": {
+            "hoeveelheid": 0,
+            "duur": 0,
+            "soort": ""
+        },
+        "windrichting": "O",
+        "windsnelheid": 2,
+        "nacht": "helder"
+    }
+
+}

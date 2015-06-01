@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogus>
+	<album>
+		<artist>The Archaic Abattoir</artist>
+		<title>Aborted</title>
+		<img src="images/aborted-the-archaic-abattoir.png"/>
+	</album>
+	<album>
+		<artist>Accept</artist>
+		<title>I'm a rebel</title>
+		<img src="images/accept-i-m-a-rebel.png"/>
+	</album>
+	<album>
+		<artist>Anthelion</artist>
+		<title>Bloodshed Rebelion</title>
+		<img src="images/anthelion-bloodshed-rebefallen.png"/>
+	</album>
+	<album>
+		<artist>The Apples</artist>
+		<title>Attention</title>
+		<img src="images/the-apples-attention.png"/>
+	</album>
+	<album>
+		<artist>At The Gates</artist>
+		<title>Terminal Spirit Disease</title>
+		<img src="images/at-the-gates-terminal-spirit-disease.png"/>
+	</album>
+	<album>
+		<artist>Avishai Cohen</artist>
+		<title>At Home</title>
+		<img src="images/avishai-cohen-at-home.png"/>
+	</album>
+	<album>
+		<artist>Bad Religion</artist>
+		<title>Stranger Than Ficition</title>
+		<img src="images/bad-religion-stranger-than-fiction.png"/>
+	</album>
+	<album>
+		<artist>The Beatles</artist>
+		<title>Please please me</title>
+		<img src="images/the-beatles-please-please-me.png"/>
+	</album>
+	<album>
+		<artist>Brad Mehldau Trio</artist>
+		<title>Day Is Done</title>
+		<img src="images/brad-mehldau-trio-day-is-done.png"/>
+	</album>
+	<album>
+		<artist>Cannibal Corpse</artist>
+		<title>Butchered At Birth</title>
+		<img src="images/cannibal-corpse-butchered-at-birth.png"/>
+	</album>
+	<album>
+		<artist>Cataract</artist>
+		<title>Kingdom</title>
+		<img src="images/cataract-kingdom.png"/>
+	</album>
+	<album>
+		<artist>Channel Zero</artist>
+		<title>Stigmatized</title>
+		<img src="images/channel-zero-stigmatized.png"/>
+	</album>
+</catalogus>

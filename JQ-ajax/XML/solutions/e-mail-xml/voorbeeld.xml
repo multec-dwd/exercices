@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<email language="western" encoding="64">
+	<to>sander.vermander@student.ehb.be</to>
+	<from>dynamic.web.development@ehb.be</from>
+	<cc>design@ehb.be</cc>
+	<bcc>multec@ehb.be</bcc>
+	<subject>Test</subject>
+	<body>Dit is een test-mail.</body>
+</email>

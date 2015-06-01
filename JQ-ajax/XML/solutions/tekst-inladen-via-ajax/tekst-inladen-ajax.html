@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jan Klaas Van Den Meersche">
+    <title>Tekst inladen via Ajax</title>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script>
+        $(function(){
+        	
+        	$.ajax({
+        		url: 'data.txt',
+        		success: function(data){
+        			$('#changeMe').text(data);
+        		},
+        		error: function(err){
+        			console.error('Fout: ', err);
+        		}
+        	});
+        	
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Tekst inladen via Ajax</h1>
+    <div id="changeMe">Hallo HTML</div>
+    <p>Test mij in Safari of IE, of via een webserver (xampp,...)</p>
+</body>
+
+</html>

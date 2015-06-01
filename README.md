@@ -47,12 +47,17 @@
 > [link](/JQ-basics/solutions/reeks2)
 
 ## Ajax, XML & JSON
-> Ajax + XML
-
 > [link](/JQ-ajax/)
 
-> Data verzenden
+### Oefeningenreeks 1
+> [Ajax + XML](/JQ-ajax/XML/)
 
-> [link](/JQ-ajax/)
+### Oefeningenreeks 2
+> [Ajax + JSON](/JQ-ajax/JSON/)
+
+##Gegevens versturen via Ajax
+
+### Oefeningenreeks 1 + 2
+> [link](/JQ-ajax/sending-data/)
 
 <!--## Phonegap-->
